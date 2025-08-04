@@ -1,0 +1,5 @@
+../Core/Src/motor.c:4:6:motor_INIT	8	static
+../Core/Src/motor.c:10:6:motor_front	16	static
+../Core/Src/motor.c:22:6:motor_left	16	static
+../Core/Src/motor.c:33:6:motor_right	16	static
+../Core/Src/motor.c:44:6:motor_rear	16	static

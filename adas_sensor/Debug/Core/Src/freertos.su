@@ -1,0 +1,5 @@
+../Core/Src/freertos.c:50:5:_write	24	static
+../Core/Src/freertos.c:125:6:MX_FREERTOS_Init	8	static
+../Core/Src/freertos.c:195:6:ultraTASK	40	static
+../Core/Src/freertos.c:245:6:irTASK	32	static
+../Core/Src/freertos.c:308:6:transTASK	32	static
