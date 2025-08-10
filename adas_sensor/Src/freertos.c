@@ -200,17 +200,11 @@ void ultraTASK(void *argument)
 	/* Infinite loop */
 	for(;;)
 	{
-		//memset(packet.data, 0, sizeof(packet.data));
 		memset(&packet, 0, sizeof(packet));
 		HCSR04_Trigger(); // 초음파 측정 시작
 
 		printf("fst: %dcm, snd: %dcm, thd: %dcm, fth: %dcm\n",
 			ultra[0].distance, ultra[1].distance, ultra[2].distance, ultra[3].distance);
-
-		//		TxData_ultra[0] = ultra[0].distance;
-		//		TxData_ultra[1] = ultra[1].distance;
-		//		TxData_ultra[2] = ultra[2].distance;
-		//		TxData_ultra[3] = ultra[3].distance;
 
 
 		packet.type = SENSOR_ULTRA;
@@ -253,31 +247,6 @@ void irTASK(void *argument)
 	{
 		/* PC8 - 왼, PC9 - 오 (검은색 on, 흰색 off)*/
 
-//		// 왼쪽 IR
-//		if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_8) == 1)
-//		{
-//			TxData_ir[0] = 1;
-//			printf("Left_ON\n");
-//		}
-//		else
-//		{
-//			TxData_ir[0] = 0;
-//			printf("Left_OFF\n");
-//		}
-//
-//		// 오른쪽 IR
-//		if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_9) == 1)
-//		{
-//			TxData_ir[1] = 1;
-//			printf("Right_ON\n");
-//		}
-//		else
-//		{
-//			TxData_ir[1] = 0;
-//			printf("Right_OFF\n");
-//		}
-
-		//memset(packet.data, 0, sizeof(packet.data));
 		memset(&packet, 0, sizeof(packet));
 
 		packet.type = SENSOR_IR;
