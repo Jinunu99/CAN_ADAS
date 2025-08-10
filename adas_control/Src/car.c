@@ -8,7 +8,9 @@ void car_INIT()
 	memset(car.ir, 0, sizeof(car.ir));
 	car.motor_speed = 0;
 	car.direction = STRAIGHT;
-	car.buzzer = OFF;
+	car.aeb_buzzer = OFF;
+	car.ldws_buzzer = OFF;
+	car.bcw_buzzer = OFF;
 }
 
 // 기본 주행값 450
