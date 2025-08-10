@@ -1,3 +1,0 @@
-../Core/Src/car.c:5:6:car_INIT	1
-../Core/Src/car.c:14:6:speed_SET	4
-../Core/Src/car.c:31:6:direction_SET	7

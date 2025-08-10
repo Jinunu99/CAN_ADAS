@@ -1,5 +1,0 @@
-../Core/Src/freertos.c:52:5:_write	1
-../Core/Src/freertos.c:104:6:MX_FREERTOS_Init	1
-../Core/Src/freertos.c:178:6:motorTASK	5
-../Core/Src/freertos.c:242:6:buzTASK	1
-../Core/Src/freertos.c:260:6:recvTASK	5
