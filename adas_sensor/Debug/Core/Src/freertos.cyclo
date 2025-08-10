@@ -1,5 +1,0 @@
-../Core/Src/freertos.c:50:5:_write	1
-../Core/Src/freertos.c:125:6:MX_FREERTOS_Init	1
-../Core/Src/freertos.c:195:6:ultraTASK	3
-../Core/Src/freertos.c:245:6:irTASK	3
-../Core/Src/freertos.c:308:6:transTASK	4

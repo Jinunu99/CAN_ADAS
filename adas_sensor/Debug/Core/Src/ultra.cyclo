@@ -1,3 +1,0 @@
-../Core/Src/ultra.c:13:6:ultra_init	1
-../Core/Src/ultra.c:26:6:HCSR04_Trigger	1
-../Core/Src/ultra.c:46:6:HAL_TIM_IC_CaptureCallback	23
