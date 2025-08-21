@@ -21,15 +21,15 @@ void speed_SET()
 	uint8_t ULTRA_front = car.ultra[0];
 
 	// ACC (Adaptive Cruise Control)
-	if(ULTRA_front >= 17)
+	if(ULTRA_front >= 15)
 	{
 		car.aeb_buzzer = OFF;
 		car.motor_speed = 500;
 	}
-	else if(ULTRA_front >= 12 && ULTRA_front < 17)
+	else if(ULTRA_front >= 10 && ULTRA_front < 15)
 	{
 		car.aeb_buzzer = OFF;
-		car.motor_speed = (ULTRA_front - 12) * 40 + 300;
+		car.motor_speed = (ULTRA_front - 10) * 40 + 300;
 	}
 	// AEB (자동 긴급 제동)
 	else
